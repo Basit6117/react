@@ -13,11 +13,13 @@ import ReactDOM from 'react-dom/client';
 // import Events from './components/Events';
 // import Forms from './components/Forms';
 import News from './components/News';
+// import Todo from './components/Todo';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    {/* <Todo /> */}
     <News />
     {/* <Events /> */}
     {/* <Random /> */}
