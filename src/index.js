@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-// import './index.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './index.css';
 // import App from './App';
 // import Home from './Home';
 // import Cards from './components/Cards';
@@ -12,15 +13,25 @@ import ReactDOM from 'react-dom/client';
 // import Random from './components/Random';
 // import Events from './components/Events';
 // import Forms from './components/Forms';
-import News from './components/News';
+// import News from './components/News';
 // import Todo from './components/Todo';
+// import App from './Todo/App';
+// import Body from './funcomponenet/Body';
+// import App from './funcomponenet/App'
+// import BootstrapUi from './funcomponenet/BootstrapUi';
+import Mui from './funcomponenet/Mui';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    <Mui />
+    {/* <BootstrapUi /> */}
+    {/* <Body /> */}
+    {/* <App /> */}
+    {/* <App /> */}
     {/* <Todo /> */}
-    <News />
+    {/* <News /> */}
     {/* <Events /> */}
     {/* <Random /> */}
     {/* <Data /> */}
