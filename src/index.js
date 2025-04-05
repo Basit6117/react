@@ -19,13 +19,15 @@ import './index.css';
 // import Body from './funcomponenet/Body';
 // import App from './funcomponenet/App'
 // import BootstrapUi from './funcomponenet/BootstrapUi';
-import Mui from './funcomponenet/Mui';
+// import Mui from './funcomponenet/Mui';
+import App from './funcomponenet/router/App';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Mui />
+    <App />
+    {/* <Mui /> */}
     {/* <BootstrapUi /> */}
     {/* <Body /> */}
     {/* <App /> */}
