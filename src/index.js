@@ -20,13 +20,17 @@ import './index.css';
 // import App from './funcomponenet/App'
 // import BootstrapUi from './funcomponenet/BootstrapUi';
 // import Mui from './funcomponenet/Mui';
-import App from './funcomponenet/router/App';
+// import App from './funcomponenet/router/App';
+// import Form from './funcomponenet/formik/Form';
+
 import reportWebVitals from './reportWebVitals';
+import FormikLogin from './funcomponenet/formik/FormikLogin';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <FormikLogin />
+    {/* <App /> */}
     {/* <Mui /> */}
     {/* <BootstrapUi /> */}
     {/* <Body /> */}
