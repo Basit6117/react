@@ -34,7 +34,6 @@ const FormikLogin = () => {
 
                 />
                 <span  className='text-danger'>{formik.touched.username && formik.errors.username ? formik.errors.username : null}</span>
-                {/* <span>{formik.handleSubmit=== true ? formik.errors.username: null }</span> */}
                 <label htmlFor='password'>Password</label>
 
                 <input type="password"
@@ -45,7 +44,6 @@ const FormikLogin = () => {
                     onBlur={formik.handleBlur}
                 />
                 <span className='text-danger'>{formik.touched.password && formik.errors.password ? formik.errors.password : null}</span>
-                {/* <span>{formik.handleSubmit=== true ? formik.errors.password: null }</span> */}
 
                 <button type='submit'>Button</button>
             </form>

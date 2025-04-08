@@ -1,4 +1,4 @@
-import React from 'react';
+import React  from 'react';
 import ReactDOM from 'react-dom/client';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './index.css';
@@ -22,14 +22,19 @@ import './index.css';
 // import Mui from './funcomponenet/Mui';
 // import App from './funcomponenet/router/App';
 // import Form from './funcomponenet/formik/Form';
+// import Counter from './funcomponenet/Counter';
+// import Ref from './funcomponenet/Ref';
+import StopWatch from './funcomponenet/StopWatch';
 
 import reportWebVitals from './reportWebVitals';
-import FormikLogin from './funcomponenet/formik/FormikLogin';
+// import FormikLogin from './funcomponenet/formik/FormikLogin';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <FormikLogin />
+    <StopWatch/>
+    {/* <Ref/> */}
+    {/* <FormikLogin /> */}
     {/* <App /> */}
     {/* <Mui /> */}
     {/* <BootstrapUi /> */}
